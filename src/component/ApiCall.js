@@ -26,7 +26,7 @@ const ApiCall = () => {
       return dispatch(loadData());
     }, 5000);
     return () => clearInterval(intervalId);
-  }, []);
+  });
 
   //
   //
