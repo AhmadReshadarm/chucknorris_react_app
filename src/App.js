@@ -55,6 +55,9 @@ const LocalWrapper = styled.div`
   gap: 40px;
   padding-top: 80px;
   padding-bottom: 60px;
+  @media (max-width: 750px) {
+    gap: 30px;
+  }
 `;
 
 const AlertAndWellcom = styled.div`
@@ -69,10 +72,17 @@ const AlertAndWellcom = styled.div`
   gap: 10px;
   box-shadow: 2px 2px 5px 3px #e8eaed;
   transition: 200ms;
+  @media (max-width: 750px) {
+    width: 96%;
+    gap: 5px;
+  }
 `;
 
 const AlertWellcomTxt = styled.p`
   font-size: 1.25rem;
+  @media (max-width: 750px) {
+    font-size: 1rem;
+  }
 `;
 
 const ChuckImg = styled.img`

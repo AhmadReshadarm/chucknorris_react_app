@@ -83,6 +83,9 @@ const Itemswrapper = styled.div`
   row-gap: 2rem;
   column-gap: 2rem;
   padding-bottom: 20px;
+  @media (max-width: 750px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 const Card = styled.div`

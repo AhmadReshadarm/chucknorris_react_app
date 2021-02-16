@@ -156,6 +156,9 @@ const CardWrapper = styled.div`
   box-shadow: 2px 2px 5px 3px #e8eaed;
   animation: ${NextLoadAnimation} 5s infinite ease-in;
   backdrop-filter: blur(40px);
+  @media (max-width: 750px) {
+    width: 96%;
+  }
 `;
 
 const LoadingWrapperCard = styled.div`
@@ -168,6 +171,9 @@ const LoadingWrapperCard = styled.div`
   justify-content: space-evenly;
   place-items: center;
   box-shadow: 2px 2px 5px 3px #e8eaed;
+  @media (max-width: 750px) {
+    width: 96%;
+  }
 `;
 
 const LoadingWrraper = styled.div`
@@ -238,6 +244,9 @@ const Heart = styled.svg`
 
 const Content = styled.p`
   font-size: 1.25rem;
+  @media (max-width: 750px) {
+    font-size: 1rem;
+  }
 `;
 
 export default ApiCall;
